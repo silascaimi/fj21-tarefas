@@ -3,7 +3,6 @@
 ##############################
 .mtj.tmp/
 *.class
-*.jar
 *.war
 *.ear
 *.nar
@@ -26,3 +25,5 @@ tmp/
 local.properties
 .loadpath
 .factorypath
+
+.gitignore
