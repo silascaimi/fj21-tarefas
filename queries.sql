@@ -1,4 +1,6 @@
   mysql -u root -p
+  
+  create database fj21;
   use fj21;
   
   create table tarefas (
