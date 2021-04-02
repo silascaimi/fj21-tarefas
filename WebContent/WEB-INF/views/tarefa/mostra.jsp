@@ -16,17 +16,10 @@
 <script src="resources/js/jquery-ui.js"></script>
 <link type="text/css" href="../resources/css/tarefas.css" rel="stylesheet">
 
-<link href="<c:url value="/resources/css/jquery.css" />" rel="stylesheet">
-<script src="<c:url value="/resources/js/jquery.js" />"></script>
-<script src="<c:url value="/resources/js/jquery-ui.js" />"></script>
+<link href="${pageContext.request.contextPath}/resources/css/jquery.css" rel="stylesheet">
+<script src="${pageContext.request.contextPath}/resources/js/jquery.js" ></script>
+<script src="${pageContext.request.contextPath}/resources/js/jquery-ui.js"></script>
 
-<spring:url value="/resources/css/main.css" var="mainCss" />
-<spring:url value="/resources/js/jquery.1.10.2.min.js" var="jqueryJs" />
-<spring:url value="/resources/js/main.js" var="mainJs" />
-
-<link href="${mainCss}" rel="stylesheet" />
-<script src="${jqueryJs}"></script>
-<script src="${mainJs}"></script>
 </head>
 <body>
   <h3>Alterar tarefa - ${tarefa.id}</h3>
